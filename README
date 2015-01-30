@@ -1,0 +1,39 @@
+btponto
+=======
+
+This software register your presence based on a discoverable Bluetooth device
+that you normaly brings together with you: your cell phone.
+
+To install this software follow the steps below:
+
+1. Install Python 2.5::
+
+   $ sudo apt-get install python2.5 # in Ubuntu Linux
+
+2. Install the Python Bluez::
+
+   $ sudo apt-get install python-bluez
+
+3. Run the install script::
+
+   $ sudo python2.5 setup.py install
+
+4. Add the ``btponto.crontab`` example in your crontab.
+
+Changelog
+---------
+
+- **2007-06-01** - 0.1 - First release.
+
+To-Do List
+----------
+
+- Check the state sanity
+- Discard invalid registers in log file
+
+Please, send your bug reports, informations, doubts and other feedbacks to::
+
+    osantana
+    <at>
+    gmail com
+

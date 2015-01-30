@@ -1,0 +1,6 @@
+include btponto.*
+include btponto.py
+include COPYING
+include README
+include sample.cfg
+include setup.py
